@@ -1,5 +1,6 @@
 <?php
     //aqaqsq
+    //otro
     require_once "Config/Config.php";
     $ruta = !empty($_GET['url']) ? $_GET['url'] : "Home/index";
     $array = explode("/", $ruta);
@@ -32,5 +33,3 @@
     }else{
         echo "No existe el controlador";
     }
-
-?>
